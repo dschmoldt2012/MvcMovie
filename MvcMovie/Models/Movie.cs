@@ -17,9 +17,7 @@ namespace MvcMovie.Models
         
         // New Features Go Here
 
-        // Stash This
-
-
+ 
 
 
         [Display(Name = "Release Date")]

@@ -17,7 +17,7 @@ namespace MvcMovie.Models
         
         // New Features Go Here
         // More New Features Go Here
- 
+        // Even More New Featgures
 
 
         [Display(Name = "Release Date")]

@@ -20,6 +20,8 @@ namespace MvcMovie.Models
         // Stash This
 
 
+
+
         [Display(Name = "Release Date")]
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:d}", ApplyFormatInEditMode = true)]

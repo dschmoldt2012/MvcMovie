@@ -42,21 +42,26 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies/Details/5
+        [HttpGet]
         public ActionResult Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+            
             Movie movie = db.Movies.Find(id);
+            
             if (movie == null)
             {
                 return HttpNotFound();
             }
+            
             return View(movie);
         }
 
         // GET: Movies/Create
+        [HttpGet]
         public ActionResult Create()
         {
             return View();
@@ -112,6 +117,8 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies/Delete/5
+        // Get the Object for Deletion Confirmation
+        [HttpGet]
         public ActionResult Delete(int? id)
         {
             if (id == null)

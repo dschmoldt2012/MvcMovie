@@ -18,7 +18,7 @@ namespace MvcMovie.Models
         // New Features Go Here
         // More New Features Go Here
         // Even More New Featgures
-        // Commit and Push
+        // Commit and Push 2
 
         [Display(Name = "Release Date")]
         [DataType(DataType.Date)]
